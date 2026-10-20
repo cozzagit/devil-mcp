@@ -1,0 +1,30 @@
+name: Segnalazione
+description: Qualcosa non funziona con il server MCP o con la documentazione.
+labels: ["segnalazione"]
+body:
+  - type: markdown
+    attributes:
+      value: "Grazie! Non incollare mai il tuo token, dati di aziende reali o informazioni personali."
+  - type: input
+    id: strumento
+    attributes:
+      label: Strumento MCP coinvolto
+      placeholder: "es. cerca_aziende"
+  - type: textarea
+    id: cosa
+    attributes:
+      label: Cosa è successo
+      description: Cosa hai chiesto a Claude Code e cosa hai ottenuto.
+    validations:
+      required: true
+  - type: textarea
+    id: atteso
+    attributes:
+      label: Cosa ti aspettavi
+    validations:
+      required: true
+  - type: input
+    id: versione
+    attributes:
+      label: Versione di Claude Code
+      placeholder: "claude --version"

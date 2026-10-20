@@ -1,0 +1,16 @@
+name: Idea
+description: Uno strumento o un miglioramento che ti servirebbe.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Che problema vuoi risolvere
+      description: Descrivi il lavoro che oggi fai a mano o che non riesci a fare.
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Come te lo immagini
+      description: Uno strumento nuovo, un parametro in più, un esempio…

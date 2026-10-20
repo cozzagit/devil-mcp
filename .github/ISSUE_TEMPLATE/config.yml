@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Richiedi un invito alla beta
+    url: https://devil.vibecanyon.com/#invito
+    about: Per usare il server MCP serve un account DeviL.
+  - name: Guida al collegamento con Claude Code
+    url: https://devil.vibecanyon.com/guida/claude-code
+    about: Token, comando di collegamento, primi comandi.
+  - name: Problema di sicurezza
+    url: mailto:devil@vibecanyon.com?subject=Sicurezza
+    about: Scrivi in privato, non con una issue pubblica.

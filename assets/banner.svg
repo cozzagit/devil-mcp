@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="DeviL per Claude Code: il tuo miglior commerciale è il codice che hai già scritto">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#110e0c"/>
+      <stop offset="1" stop-color="#1c130f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1080" cy="40" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6a3d" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ff6a3d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="4" y1="2" x2="44" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff7a45"/>
+      <stop offset="0.5" stop-color="#ec4a24"/>
+      <stop offset="1" stop-color="#b3221a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb08a"/>
+      <stop offset="1" stop-color="#ff6a3d"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#grid)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+
+  <g transform="translate(80 72) scale(1.5)">
+    <rect x="1" y="1" width="46" height="46" rx="12" fill="url(#mark)"/>
+    <path d="M11 17.6 C10.3 13.6 9.3 10.6 7.4 8 C11.6 10 14.7 13.4 16.6 17.6 Z" fill="#fff"/>
+    <path d="M23.4 17.3 C25.6 13.4 28.7 10.3 32.9 8.4 C31 11.1 29.8 14.2 29.4 18.4 Z" fill="#fff"/>
+    <path d="M11 17 H21 C28.7 17 33.5 21.9 33.5 28 C33.5 34.1 28.7 39 21 39 H11 Z M16.5 22 V34 H20.8 C25.3 34 27.8 31.6 27.8 28 C27.8 24.4 25.3 22 20.8 22 Z" fill="#fff" fill-rule="evenodd"/>
+    <path d="M30.2 36.4 C35.9 36.7 39.3 33 39.5 26.6" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M39.6 19.6 L43.2 26.9 L36 26.7 Z" fill="#fff" stroke="#fff" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+  <text x="168" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#f6f0e9">Devi<tspan fill="#ff6a3d">L</tspan></text>
+  <text x="169" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#9a8e82">per Claude Code · server MCP</text>
+
+  <text x="80" y="236" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#f6f0e9">Il tuo miglior commerciale è</text>
+  <text x="80" y="296" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="url(#accent)">il codice che hai già scritto.</text>
+  <text x="80" y="346" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#c9bdb0">Trova PMI italiane che potrebbero averne bisogno, con le prove e tre indici separati.</text>
+
+  <g font-family="Consolas, 'SFMono-Regular', Menlo, monospace" font-size="15">
+    <rect x="880" y="96" width="320" height="168" rx="14" fill="#171310" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="904" cy="118" r="5" fill="#ff6a3d"/><circle cx="922" cy="118" r="5" fill="#fbbf24" fill-opacity="0.8"/><circle cx="940" cy="118" r="5" fill="#4ade80" fill-opacity="0.7"/>
+    <text x="900" y="156" fill="#ff9a6e">›</text><text x="916" y="156" fill="#f6f0e9">trova imprese edili</text>
+    <text x="916" y="178" fill="#f6f0e9">a Bergamo per il mio</text>
+    <text x="916" y="200" fill="#f6f0e9">gestionale cantieri</text>
+    <text x="900" y="236" fill="#4ade80">✓</text><text x="916" y="236" fill="#9a8e82">3 pronte · 2 da verificare</text>
+  </g>
+</svg>

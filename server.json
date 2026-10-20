@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cozzagit/devil",
+  "title": "DeviL",
+  "description": "Trova PMI italiane a cui proporre i software che hai già sviluppato, dal tuo Claude Code.",
+  "version": "1.0.0",
+  "websiteUrl": "https://devil.vibecanyon.com",
+  "repository": {
+    "url": "https://github.com/cozzagit/devil-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://devil.vibecanyon.com/brand/devil-mark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://devil.vibecanyon.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer cbs_… — token personale da DeviL, Impostazioni → Claude Code e API",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
