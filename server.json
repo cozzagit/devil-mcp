@@ -3,7 +3,7 @@
   "name": "io.github.cozzagit/devil",
   "title": "DeviL",
   "description": "Trova PMI italiane a cui proporre i software che hai già sviluppato, dal tuo Claude Code.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://devil.vibecanyon.com",
   "repository": {
     "url": "https://github.com/cozzagit/devil-mcp",

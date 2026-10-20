@@ -101,7 +101,7 @@ I livelli sono cumulativi: ogni livello comprende gli strumenti dei precedenti.
 | `azienda_crea` | Base | Aggiunge un’azienda a mano (es. una segnalazione, un contatto di una fiera): stessi controlli del portale. |
 | `avvia_ricerca` | Base | Avvia la ricerca di nuove aziende in una o più province (sigle, max 8). |
 | `offerte_elenco` | Search | «Le mie offerte»: servizi, prodotti e cataloghi che l’organizzazione vende, con quante aziende sono adatte a ognuna. |
-| `offerte_salva` | Search | Crea o aggiorna un’offerta in «Le mie offerte» (con id = aggiornamento). |
+| `offerte_salva` | Search | Crea o aggiorna un’offerta in «Le mie offerte» (con id = aggiornamento, senza id = nuova offerta). |
 | `abbinamenti` | Dev | Abbinamenti fra i progetti del portfolio e le aziende analizzate: per un progetto (slug) le aziende con aderenza e livello (pronto, da adattare, da scalare); senza slug i 5 colpi più facili e la classifica dei progetti per opportunità individuate. |
 | `formato_schede` | Dev | Formato delle schede progetto e valori ammessi (settori, tipi di software, temi, stati) con un esempio: leggilo prima di portfolio_salva. |
 | `portfolio_elenco` | Dev | Le schede dei progetti già caricate (anche le bozze): leggile prima di inviarne di nuove, per non duplicarle (stesso slug = aggiornamento). |

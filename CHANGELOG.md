@@ -2,6 +2,13 @@
 
 Le novità del server MCP di DeviL visibili da Claude Code. Il formato segue [Keep a Changelog](https://keepachangelog.com/it/1.1.0/).
 
+## [1.0.1] — 2026-10-20
+
+### Migliorato
+
+- Annotazioni MCP su tutti gli strumenti: titolo, sola lettura, ripetibile, effetti esterni.
+- Descrizioni complete per ogni parametro; gli strumenti che scrivono dicono cosa cambiano e cosa restituiscono.
+
 ## [1.0.0] — 2026-10-20
 
 ### Disponibile
