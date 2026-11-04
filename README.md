@@ -78,12 +78,12 @@ flowchart LR
   C["Fonti pubbliche<br/>siti · ANAC · archive.org"] --> B
   B -->|aziende con 3 indici| D["Claude Code<br/>analisi con fonti"]
   D -->|analisi e bozze| B
-  B --> E["Primo contatto<br/>lettera · telefono · LinkedIn"]
+  B --> E["Primo contatto<br/>lettera · telefono"]
 ```
 
 1. **Insegna a DeviL cosa sai fare.** Claude Code legge i tuoi progetti e salva una scheda per ognuno: cosa fa, per chi, funzioni, settori, maturità.
 2. **DeviL cerca e legge.** Trova le aziende nelle province che scegli, legge i loro siti e i dati pubblici, controlla che l'attività esista ancora.
-3. **Claude analizza e prepara la mossa.** Cerca ogni azienda in rete con le fonti, stima i tre indici, scrive lettera, traccia telefonica o messaggio LinkedIn con i tuoi casi reali.
+3. **Claude analizza e prepara la mossa.** Cerca ogni azienda in rete con le fonti, stima i tre indici, scrive lettera e traccia telefonica con i tuoi casi reali; per LinkedIn, senza consenso, solo la nota per la richiesta di collegamento, senza proposta.
 4. **Tu decidi e impari.** Dopo il contatto registri se il problema c'era: i riscontri correggono la valutazione e mostrano quali segnali indovinano.
 
 ## Strumenti
@@ -93,13 +93,13 @@ I livelli sono cumulativi: ogni livello comprende gli strumenti dei precedenti.
 | Strumento | Da livello | Cosa fa |
 |---|---|---|
 | `panoramica` | Base | Situazione dell’organizzazione su DeviL: piano e limiti, zona, numeri (aziende, analizzate, bozze pronte, in coda) e le prossime 10 mosse consigliate. |
-| `cerca_aziende` | Base | Cerca fra le aziende dell’organizzazione con filtri (testo, provincia, settore, priorità minima (0-100), distanza, solo con bozze pronte, analizzate o no). |
+| `cerca_aziende` | Base | Cerca SOLO fra le aziende già presenti nell’organizzazione, con filtri (testo, provincia, settore, priorità minima (0-100), distanza, solo con bozze pronte, analizzate o no). |
 | `scheda_azienda` | Base | Dossier completo di un’azienda in Markdown: dati, persone e canali ammessi, segnali, dati pubblici (ANAC, archive.org), date dei contenuti, testo del sito. |
 | `dossier_da_lavorare` | Base | Scarica i dossier delle aziende messe in coda per Claude (più, se top > 0, le migliori non ancora analizzate) con il README: regole di scrittura, catalogo, verifica delle date, ricerca in rete e formato dei risultati. |
 | `invia_risultati` | Base | Invia analisi e bozze per una o più aziende (stesso formato di results.json descritto nel README dei dossier: { "version": 1, "items": [...] }). |
 | `metti_in_coda` | Base | Mette un’azienda in coda per Claude, con canale e indicazioni facoltative (es. "proponi l’app rapportini"). |
-| `azienda_crea` | Base | Aggiunge un’azienda a mano (es. una segnalazione, un contatto di una fiera): stessi controlli del portale. |
-| `avvia_ricerca` | Base | Avvia la ricerca di nuove aziende in una o più province (sigle, max 8). |
+| `azienda_crea` | Base | Aggiunge UNA singola azienda che conosci già per nome (es. una segnalazione, un contatto di una fiera): stessi controlli del portale. |
+| `avvia_ricerca` | Base | Trova aziende NUOVE, che l’organizzazione non ha ancora, in una o più province (sigle, max 8). |
 | `offerte_elenco` | Search | «Le mie offerte»: servizi, prodotti e cataloghi che l’organizzazione vende, con quante aziende sono adatte a ognuna. |
 | `offerte_salva` | Search | Crea o aggiorna un’offerta in «Le mie offerte» (con id = aggiornamento, senza id = nuova offerta). |
 | `abbinamenti` | Dev | Abbinamenti fra i progetti del portfolio e le aziende analizzate: per un progetto (slug) le aziende con aderenza e livello (pronto, da adattare, da scalare); senza slug i 5 colpi più facili e la classifica dei progetti per opportunità individuate. |
