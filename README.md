@@ -7,6 +7,7 @@
   <img alt="Server MCP remoto" src="https://img.shields.io/badge/MCP-server%20remoto-1f6feb?style=flat-square">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-compatibile-d97757?style=flat-square">
   <img alt="Strumenti" src="https://img.shields.io/badge/strumenti-17-555?style=flat-square">
+  <a href="https://mcptry.com/servers/io.github.cozzagit/devil"><img alt="mcptry: stato e punteggio del server" src="https://mcptry.com/badge/io.github.cozzagit/devil"></a>
   <img alt="Beta su invito" src="https://img.shields.io/badge/beta-su%20invito-f59e0b?style=flat-square">
   <a href="LICENSE"><img alt="Licenza MIT (documentazione ed esempi)" src="https://img.shields.io/badge/licenza-MIT%20(docs)-3fb950?style=flat-square"></a>
 </p>
